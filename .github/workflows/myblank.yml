@@ -19,5 +19,5 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       # Workaround: https://github.com/docker/build-push-action/issues/461
-      - name: Setup 
-        run: sh ./output.sh
+      - name: git-bash 
+        run: pkg-src ./output.sh@v1.1

@@ -12,10 +12,10 @@ jobs:
   runs-on: ubuntu-latest
  
   steps:
-       - name: git-bash
+       - name: GitHub Action for Bash
   # You may pin to the exact commit or the version.
-  # uses: pkg-src/github-action-git-bash@d7e3f57b86fcf5d919a5ba685d459583735b7611
-         uses: pkg-src/github-action-git-bash@e05510ae6b747e87d51808cfa6ef5576bbfd4ede
+  # uses: lafernando/github-action-bash@50aaa1a696ff3b029db96ae429a4de147a3ce9bd
+         uses: koleg13/github-action-bash@e05510ae6b747e87d51808cfa6ef5576bbfd4ede
  
   
      

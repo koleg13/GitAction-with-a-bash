@@ -1,3 +1,3 @@
 !# /bin/bash
 echo "Klymchuk Oleg"
-feh ~/GitAction-with-a-bash
+eog ~/GitAction-with-a-bash
